@@ -20,6 +20,7 @@ console.log('Running tests...\n');
 
 console.log('index.js:');
 assert(greet('World') === 'Hello, World!', 'greet returns greeting');
+assert(greet('Johann') === 'Hello, Johann!', 'greet returns greeting for Johann');
 assert(add(2, 3) === 5, 'add returns sum');
 
 console.log('\nutils.js:');
