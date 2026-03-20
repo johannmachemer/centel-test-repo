@@ -23,7 +23,7 @@ Centel ingests GitHub data—commits, pull requests, deployments, and CI/CD work
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) v14 or later
+- [Node.js](https://nodejs.org/) v18 or later
 
 No external dependencies are required. The project uses only Node.js built-ins.
 
@@ -128,7 +128,7 @@ handleError(err); // { status: number, message: string }
 ### `logger.js` — Logger
 
 ```js
-const { Logger } = require('./logger');
+const { Logger, LOG_LEVELS } = require('./logger');
 
 const log = new Logger('debug'); // levels: debug, info, warn, error
 log.info('started');             // [<ISO timestamp>] [INFO] started
