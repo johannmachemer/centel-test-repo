@@ -1,4 +1,4 @@
-const { greet, add } = require('./index');
+const { greet, add, subtract } = require('./index');
 const { capitalize, reverse, isPalindrome } = require('./utils');
 const { multiply, divide, factorial, fibonacci } = require('./math');
 
@@ -22,6 +22,7 @@ console.log('index.js:');
 assert(greet('World') === 'Hello, World!', 'greet returns greeting');
 assert(greet('Johann') === 'Hello, Johann!', 'greet returns greeting for Johann');
 assert(add(2, 3) === 5, 'add returns sum');
+assert(subtract(5, 3) === 2, 'subtract returns difference');
 
 console.log('\nutils.js:');
 assert(capitalize('hello') === 'Hello', 'capitalize works');
