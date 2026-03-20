@@ -153,7 +153,7 @@ cache.set('key', 'value');
 cache.get('key');   // 'value' (or undefined if expired)
 cache.has('key');   // true/false
 cache.clear();
-cache.size;         // number of entries (may include unexpired entries)
+cache.size;         // number of entries (may include expired entries)
 ```
 
 Expiry is checked lazily on `get()`.
