@@ -5,4 +5,4 @@ Hello Review Agent
 Whats upp, maaaaan
 
 
-DU KLEINER GOOOO WEBHOOOK
+Nicht mehr DAAAA
