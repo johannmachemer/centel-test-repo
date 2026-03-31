@@ -104,4 +104,4 @@ q.dequeue();              // "task-1"
 node test.js
 ```
 
-WOOOOOW
+Hello Johann
